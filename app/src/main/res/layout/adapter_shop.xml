@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shop_background"
+    android:id="@+id/shop_layout">
+
+    <ImageView
+        android:id="@+id/shop_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/shop_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:text="创意简约玻璃杯子便携抖音网红水杯少女学生韩国清新森系可爱水瓶"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/shop_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:textColor="#eb4f38"
+        android:textStyle="bold"
+        android:text="200积分"
+        />
+</LinearLayout>
